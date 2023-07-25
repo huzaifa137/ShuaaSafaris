@@ -9,7 +9,10 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <title>Travelair Agency HTML Website Template - Contact Page</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+    <title>ShuaaSafarisUg - Thank You For Booking</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Style CSS -->
@@ -62,24 +65,24 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-3 col-lg-2 col-md-3 col-sm-3 col-12">
-                            <div class="logo"> <a href="index.html"><img src="images/ShuuaSafarisLogo.png" alt=""> </a> </div>
+                            <div class="logo"> <a href="index.php"><img src="images/ShuuaSafarisLogo.png" alt=""> </a> </div>
                         </div>
                         <div class="col-xl-9 col-lg-10 col-md-9 col-sm-12 col-12 mt-4">
                             <!-- navigations-->
                             <div class="navigation">
                                 <div id="navigation">
                                     <ul>
-                                        <li class="active"><a href="index.html">Home</a></li>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="tour-list.html">Destinations</a></li>
+                                        <li class="active"><a href="index.php">Home</a></li>
+                                        <li><a href="about.php">About</a></li>
+                                        <li><a href="tour-list.php">Destinations</a></li>
                                         <li class="has-sub"><a href="#">Travel Tips</a>
                                             <ul>
                                                 <li><a href="Ugandatraveltips.doc.pdf">Uganda Travel Tips</a></li>
                                                 <li><a href="terms.pdf">Terms & Conditions</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="tour-booking.html">Tour Booking</a> </li>
-                                        <li><a href="contact-us.html">Contact</a></li>
+                                        <li><a href="tour-booking.php">Tour Booking</a> </li>
+                                        <li><a href="contact-us.php">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -95,139 +98,16 @@
         </div>
         <!-- /.page-header-->
 
+        <div class="contact-pageheader1" style="padding-top: 110px; padding-bottom: 110px;">
+            <h1 style="text-align: center;">Thank you,for you're Enquiry message Submitted<br>we shall get back to you soon !</h1>
+        </div>
+        <!-- /.page-header-->
         
-        <!-- contact-section -->
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                    <div class="contact-wrapper">
-                        <div id="contact-map" class="mb60"></div>
-
-                        
-                        
-                        
-
-                        <div class="row">
-                            <div class="offset-xl-1 col-xl-10 offset-lg-1 col-lg-10 offset-md-1 col-md-10 col-sm-12 col-12">
-                                <div class="section-title">
-                                    <h2>We're here for you all day, everyday!</h2>
-                                    <p>If you have any questions or comments please complete the form below.We'd love to hear from you!</p>
-                                </div>
-                                <div class="contact-block">
-                                    <!-- contact-form -->
-                                    <form>
-                                        <div class="row">
-                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                                                <div class="form-group">
-                                                    <label class="control-label" for="name">Name</label>
-                                                    <input id="name" type="text" placeholder="Your Name" class="form-control" required>
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                                                <div class="form-group">
-                                                    <label class="control-label" for="email"> Email</label>
-                                                    <input id="email" type="text" placeholder="Your Email Address" class="form-control" required>
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                                <div class="form-group">
-                                                    <label class="control-label" for="subject">Subject </label>
-                                                    <input id="subject" type="text" placeholder="Your Subject" class="form-control" required>
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                                <div class="form-group">
-                                                    <label class="control-label" for="textarea">Messages</label>
-                                                    <textarea class="form-control" id="textarea" name="textarea" rows="4" placeholder="Your Messages"></textarea>
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
-                                                <button type="submit" name="singlebutton" class="btn btn-primary">Submit</button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                    <!-- contact-form -->
-                                </div>
-
-                                <!-- contact-info -->
-        <div class="space-small">
-            <div class="container">
-                <div class="row ">
-                    <!-- contact -->
-                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-6 col-12 mb20">
-                        <div class="contact-info">
-                            <h4 class="contact-info-title"  style="text-align: center;">Head Office Location</h4>
-                            <div class="contact-info-content">
-                                <i class="fa fa-map-marker contact-info-icon"></i>
-                                <p style="text-align: center;">Plot 1171 Jinja Road Uganda</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.contact -->
-                    <!-- contact -->
-                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-6 col-12 mb20">
-                        <div class="contact-info">
-                            <h4 class="contact-info-title" style="text-align: center;">Call Us</h4>
-                            <div class="contact-info-content">
-                                <i  class="fa fa-phone contact-info-icon"></i>
-                                <p><strong>+256-782-355-555
-                                    </strong>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.contact -->
-                    <!-- contact -->
-                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-6 col-12 mb20 ">
-                        <div class="contact-info">
-                            <h4 class="contact-info-title" style="text-align: center;">Email Us</h4>
-                            <div class="contact-info-content">
-                                <i class="fa fa-envelope contact-info-icon"></i>
-                                <p><strong>info.shuaasafaris@gmail.com<br> reservations@shuaasafarisug.com</strong>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.contact -->
-                </div>
-            </div>
-        </div>
-        <!-- /.contact-info -->
-
-
-                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         
-        <!-- /.contact-section -->
-        <!-- newsletter -->
-        <div class="newsletter-wrapper newsletter-overlay" style="background:url(images/newsletter_wrapper.jpg) no-repeat;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-7 col-lg-7 offset-md-5 col-md-6 col-sm-12 col-12">
-                        <div class="newsletter-block">
-                          <h1 class="newsletter-title">Join The Newsletter</h1>
-                        <p class="mb30">Subscribe the newsletter and get update for discounts on tours.</p>
-                            <form>
-                                <div class="input-group add-on">
-                                    <input class="form-control" placeholder="email address here" type="text">
-                                    <div class="input-group-btn">
-                                        <button class="btn btn-primary newsletter-btn" type="submit">subscribe</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /.newsletter -->
-        <!-- footer -->
+                            
+                        
+
+                        
         <div class="footer">
             <div class="container">
                 <div class="row ">
@@ -241,11 +121,11 @@
                         <div class="footer-widget ">
                             <h3 class="footer-title ">Quick Links</h3>
                             <ul class="angle list-none">
-                                <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="tour-list.html">Destinations</a></li>
-                        <li><a href="tour-booking.html">Tour Booking</a></li>
-                        <li><a href="contact-us.html">Contact</a></li>
+                                <li><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="tour-list.php">Destinations</a></li>
+                        <li><a href="tour-booking.php">Tour Booking</a></li>
+                        <li><a href="contact-us.php">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -256,10 +136,10 @@
                             <h3 class="footer-title ">Best Destinations</h3>
                             <ul class="angle list-none">
                                
-                                    <li><a href="tour-list.html">Uganda</a>
-                                        <li><a href="tour-list.html">Kenya</a></li>
-                                        <li><a href="tour-list.html">Tanzania</a></li>
-                                        <li><a href="tour-list.html">Rwanda</a></li>
+                                    <li><a href="tour-list.php">Uganda</a>
+                                        <li><a href="tour-list.php">Kenya</a></li>
+                                        <li><a href="tour-list.php">Tanzania</a></li>
+                                        <li><a href="tour-list.php">Rwanda</a></li>
                             </ul>
                         </div>
                     </div>
@@ -340,7 +220,7 @@
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZib4Lvp0g1L8eskVBFJ0SEbnENB6cJ-g&amp;callback=initMap">
         </script>
          <script src="js/return-to-top.js"></script>
-    </div>
+     </div>
 </body>
 
 

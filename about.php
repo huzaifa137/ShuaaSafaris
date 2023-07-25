@@ -9,7 +9,12 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <title>Travelair Agency HTML Website Template - About Page</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+
+    
+    <title>ShuaaSafarisUg - About Us</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Style CSS -->
@@ -65,24 +70,24 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-3 col-lg-2 col-md-3 col-sm-3 col-12">
-                            <div class="logo"> <a href="index.html"><img src="images/ShuuaSafarisLogo.png" alt=""> </a> </div>
+                            <div class="logo"> <a href="index.php"><img src="images/ShuuaSafarisLogo.png" alt=""> </a> </div>
                         </div>
                         <div class="col-xl-9 col-lg-10 col-md-9 col-sm-12 col-12 mt-4">
                             <!-- navigations-->
                             <div class="navigation">
                                 <div id="navigation">
                                     <ul>
-                                        <li class="active"><a href="index.html">Home</a></li>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="tour-list.html">Destinations</a></li>
+                                        <li class="active"><a href="index.php">Home</a></li>
+                                        <li><a href="about.php">About</a></li>
+                                        <li><a href="tour-list.php">Destinations</a></li>
                                         <li class="has-sub"><a href="#">Travel Tips</a>
                                             <ul>
                                                 <li><a href="Ugandatraveltips.doc.pdf">Uganda Travel Tips</a></li>
                                                 <li><a href="terms.pdf">Terms & Conditions</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="tour-booking.html">Tour Booking</a> </li>
-                                        <li><a href="contact-us.html">Contact</a></li>
+                                        <li><a href="tour-booking.php">Tour Booking</a> </li>
+                                        <li><a href="contact-us.php">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -193,13 +198,13 @@
                             <!-- form -->
                             <div class="widget-form">
                                 <h3 class="text-white mb30"> Book Your Tour</h3>
-                                <form>
+                                <form action="EnquiryForm.php" method="POST">
                                     <div class="row">
                                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                             <div class="form-group">
                                                 <label class="control-label sr-only" for="select"></label>
                                                 <div class="select">
-                                                    <select id="select" name="select" class="form-control">
+                                                    <select id="select" name="place" class="form-control">
                                                         <option value="">Where you want to visit</option>
                                                         <option value="Gorilla &amp; Chimp trekking">Gorilla &amp; Chimp trekking</option>
                                                         <option value="Game viewing &amp; nature walk">Game viewing &amp; Nature walk</option>
@@ -214,7 +219,7 @@
                                                 <div class="form-group">
                                                     <label class="control-label sr-only" for="datepicker"></label>
                                                     <div class="input-group">
-                                                       <input input id="email" type="text" placeholder="Enter Email" class="form-control" required></div>
+                                                       <input input id="email" type="text" placeholder="Enter Email" name="email" class="form-control" required></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -222,13 +227,13 @@
                                             <div class="form-group">
                                                 <label class="control-label sr-only" for="select"></label>
                                                 <div class="select">
-                                                    <select id="select" name="select" class="form-control">
+                                                    <select id="select" name="NumberOfPeople" class="form-control">
                                                         <option value="">Number of Peoples</option>
-                                                        <option value="">01</option>
-                                                        <option value="">02</option>
-                                                        <option value="">03</option>
-                                                        <option value="">04</option>
-                                                        <option value="">05</option>
+                                                        <option value="01">01</option>
+                                                        <option value="02">02</option>
+                                                        <option value="03">03</option>
+                                                        <option value="04">04</option>
+                                                        <option value="05">05</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -323,11 +328,11 @@
                         <div class="footer-widget ">
                             <h3 class="footer-title ">Quick Links</h3>
                             <ul class="angle list-none">
-                                <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="tour-list.html">Destinations</a></li>
-                        <li><a href="tour-booking.html">Tour Booking</a></li>
-                        <li><a href="contact-us.html">Contact</a></li>
+                                <li><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="tour-list.php">Destinations</a></li>
+                        <li><a href="tour-booking.php">Tour Booking</a></li>
+                        <li><a href="contact-us.php">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -338,10 +343,10 @@
                             <h3 class="footer-title ">Best Destinations</h3>
                             <ul class="angle list-none">
                                
-                                    <li><a href="tour-list.html">Uganda</a>
-                                        <li><a href="tour-list.html">Kenya</a></li>
-                                        <li><a href="tour-list.html">Tanzania</a></li>
-                                        <li><a href="tour-list.html">Rwanda</a></li>
+                                    <li><a href="tour-list.php">Uganda</a>
+                                        <li><a href="tour-list.php">Kenya</a></li>
+                                        <li><a href="tour-list.php">Tanzania</a></li>
+                                        <li><a href="tour-list.php">Rwanda</a></li>
                             </ul>
                         </div>
                     </div>

@@ -507,7 +507,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 #navigation.small-screen ul ul .submenu-button { height: 34px; width: 34px; }
 #navigation.small-screen .submenu-button:after { position: absolute; top: 25px; right: 20px; width: 8px; height: 2px; display: block; background: #111213; content: ''; }
 #navigation.small-screen ul ul .submenu-button:after { top: 15px; right: 13px; }
-#navigation.small-screen .submenu-button.submenu-opened:after { background:; }
+#navigation.small-screen .submenu-button.submenu-opened:after { background:none; }
 #navigation.small-screen .submenu-button:before { position: absolute; top: 22px; right: 23px; display: block; width: 2px; height: 8px; background: #121113; content: ''; }
 #navigation.small-screen ul ul .submenu-button:before { top: 12px; right: 16px; }
 #navigation.small-screen .submenu-button.submenu-opened:before { display: none; }
@@ -727,6 +727,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
  ---------------------------- */
 #contact-map { height: 450px; width: 100%; border-top-left-radius: 8px; border-top-right-radius: 8px; }
 .contact-pageheader { background: url(../images/contact_pageheader.jpg)no-repeat; background-position: top center; background-size: cover; padding-top: 180px; padding-bottom: 180px; position: relative; }
+.contact-pageheader1{ position: relative;}
 .contact-wrapper { border: 1px solid #ededed; border-radius: 8px; position: relative; bottom: 120px; }
 .contact-block { padding-bottom: 60px; }
 .contact-info { }
@@ -786,7 +787,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .box-bg-color { background-color: #f4f6fb; }
 .altenate ul { list-style: none; }
 .altenate ul li { border-bottom: 1px solid #e1e0dd; line-height: 2.5; }
-.box-table { padding: 16px 30px; margin: 0 -15px 15px; border-color:; border: 1px solid #dbdad8; }
+.box-table { padding: 16px 30px; margin: 0 -15px 15px; border-color:none; border: 1px solid #dbdad8; }
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th { border-top: transparent; }
 
 /*--------------------------

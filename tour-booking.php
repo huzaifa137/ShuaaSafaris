@@ -8,7 +8,11 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <title>Travelair Agency HTML Website Template - Tour Booking Page</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+
+    <title>ShuaaSafarisUg - Tour Booking </title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Style CSS -->
@@ -63,24 +67,24 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xl-3 col-lg-2 col-md-3 col-sm-3 col-12">
-                        <div class="logo"> <a href="index.html"><img src="images/ShuuaSafarisLogo.png" alt=""> </a> </div>
+                        <div class="logo"> <a href="index.php"><img src="images/ShuuaSafarisLogo.png" alt=""> </a> </div>
                     </div>
                     <div class="col-xl-9 col-lg-10 col-md-9 col-sm-12 col-12 mt-4">
                         <!-- navigations-->
                         <div class="navigation">
                             <div id="navigation">
                                 <ul>
-                                    <li class="active"><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="tour-list.html">Destinations</a></li>
+                                    <li class="active"><a href="index.php">Home</a></li>
+                                    <li><a href="about.php">About</a></li>
+                                    <li><a href="tour-list.php">Destinations</a></li>
                                     <li class="has-sub"><a href="#">Travel Tips</a>
                                         <ul>
                                             <li><a href="Ugandatraveltips.doc.pdf">Uganda Travel Tips</a></li>
                                             <li><a href="terms.pdf">Terms & Conditions</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="tour-booking.html">Tour Booking</a> </li>
-                                    <li><a href="contact-us.html">Contact</a></li>
+                                    <li><a href="tour-booking.php">Tour Booking</a> </li>
+                                    <li><a href="contact-us.php">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -111,7 +115,7 @@
                     <!-- footer-logo -->
                     <div class="col-xl-8 col-lg-8 col-md-7 col-sm-12 col-12 mb30">
                         <div class="tour-booking-form">
-                            <form>
+                            <form action="tour-booking-handler.php" method="POST">
                                 <div class="row">
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
                                         <h4 class="tour-form-title">Your Travel Plan Detail</h4>
@@ -119,20 +123,20 @@
                                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                                         <div class="form-group">
                                             <label class="control-label" for="country">Full Name</label>
-                                            <input id="country" type="text"  class="form-control" required>
+                                            <input id="country" type="text"  class="form-control" name="fullname" required>
                                         </div>
                                     </div>
                                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                                         <div class="form-group">
                                             <label class="control-label" for="email"> Email</label>
-                                            <input id="email" type="text" placeholder="xxxx@xxxx.xxx" class="form-control" required>
+                                            <input id="email" type="text" name="email" placeholder="xxxx@xxxx.xxx" class="form-control" required>
                                         </div>
                                     </div>
 
                                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                                         <div class="form-group">
                                             <label class="control-label" for="phone"> Phone</label>
-                                            <input id="phone" type="text" placeholder="(222) 222-2222" class="form-control" required>
+                                            <input id="phone" type="text" name="phone" placeholder="(222) 222-2222" class="form-control" required>
                                         </div>
                                     </div>
 
@@ -140,15 +144,15 @@
                                         <div class="form-group">
                                             <label class="control-label required" for="select">Number of Adults:</label>
                                             <div class="select">
-                                                <select id="select" name="select" class="form-control">
+                                                <select id="select" name="NumberOfAdults" class="form-control" required>
                                                     <option value="">Number of Adults:</option>
-                                                    <option value="">01</option>
-                                                    <option value="">02</option>
-                                                    <option value="">03</option>
-                                                    <option value="">04</option>
-                                                    <option value="">05</option>
-                                                    <option value="">06</option>
-                                                    <option value="">07</option>
+                                                    <option value="01">01</option>
+                                                    <option value="02">02</option>
+                                                    <option value="03">03</option>
+                                                    <option value="04">04</option>
+                                                    <option value="05">05</option>
+                                                    <option value="06">06</option>
+                                                    <option value="07">07</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -158,15 +162,15 @@
                                         <div class="form-group">
                                             <label class="control-label required" for="select">Number of Children:</label>
                                             <div class="select">
-                                                <select id="select" name="select" class="form-control">
+                                                <select id="select" name="NumberOfChildren" class="form-control" required>
                                                     <option value="">Number of Children:</option>
-                                                    <option value="">01</option>
-                                                    <option value="">02</option>
-                                                    <option value="">03</option>
-                                                    <option value="">04</option>
-                                                    <option value="">05</option>
-                                                    <option value="">06</option>
-                                                    <option value="">07</option>
+                                                    <option value="01">01</option>
+                                                    <option value="02">02</option>
+                                                    <option value="03">03</option>
+                                                    <option value="04">04</option>
+                                                    <option value="05">05</option>
+                                                    <option value="06">06</option>
+                                                    <option value="07">07</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -176,7 +180,7 @@
                                         <div class="form-group">
                                             <label class="control-label required" for="select">Destination</label>
                                             <div class="select">
-                                                <select id="select" name="select" class="form-control">
+                                                <select id="select" name="Destination" class="form-control" required>
                                                     <option value="">Choose a Safari from the List</option>
                                                     <option value="Gorilla &amp; Chimp trekking">Gorilla &amp; Chimp trekking</option>
                                                     <option value="Game viewing &amp; nature walk">Game viewing &amp; Nature walk</option>
@@ -192,7 +196,7 @@
                                         <div class="form-group">
                                             <label class="control-label" for="datepicker">Arrival Date</label>
                                             <div class="input-group">
-                                                <input id="datepicker" name="datepicker" type="text" placeholder="Date" class="form-control" required>
+                                                <input id="datepicker" name="ArrivalDate" type="text" placeholder="Date" class="form-control" required>
                                                 <span class="input-group-addon"><i class="fa fa-calendar"></i></span> </div>
                                         </div>
                                     </div>
@@ -203,7 +207,7 @@
                                         <div class="form-group">
                                             <label class="control-label" for="datepicker">Departure Date</label>
                                             <div class="input-group">
-                                                <input id="datepicker" name="datepicker" type="date" placeholder="Date" class="form-control" required>
+                                                <input id="datepicker" name="DepartureDate" type="date" placeholder="Date" class="form-control" required>
                                                 <span class="input-group-addon"><i class="fa fa-calendar"></i></span> </div>
                                         </div>
                                     </div>
@@ -211,13 +215,13 @@
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                         <div class="form-group">
                                             <label class="control-label" for="textarea">Describe Your Travel Requirements</label>
-                                            <textarea class="form-control" id="textarea" name="textarea" rows="4" placeholder="Write Your Requirements"></textarea>
+                                            <textarea class="form-control" id="textarea" name="Requirements" rows="4" placeholder="Write Your Requirements" required></textarea>
                                         </div>
                                     </div>
                                     
                                     
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                        <button type="submit" name="singlebutton" class="btn btn-primary">send Enquiry</button>
+                                        <button type="submit" class="btn btn-primary">send Enquiry</button>
                                     </div>
                                 </div>
                                 </form>
@@ -283,11 +287,11 @@
                         <div class="footer-widget ">
                             <h3 class="footer-title ">Quick Links</h3>
                             <ul class="angle list-none">
-                                <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="tour-list.html">Destinations</a></li>
-                        <li><a href="tour-booking.html">Tour Booking</a></li>
-                        <li><a href="contact-us.html">Contact</a></li>
+                                <li><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="tour-list.php">Destinations</a></li>
+                        <li><a href="tour-booking.php">Tour Booking</a></li>
+                        <li><a href="contact-us.php">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -298,10 +302,10 @@
                             <h3 class="footer-title ">Best Destinations</h3>
                             <ul class="angle list-none">
                                
-                                    <li><a href="tour-list.html">Uganda</a>
-                                        <li><a href="tour-list.html">Kenya</a></li>
-                                        <li><a href="tour-list.html">Tanzania</a></li>
-                                        <li><a href="tour-list.html">Rwanda</a></li>
+                                    <li><a href="tour-list.php">Uganda</a>
+                                        <li><a href="tour-list.php">Kenya</a></li>
+                                        <li><a href="tour-list.php">Tanzania</a></li>
+                                        <li><a href="tour-list.php">Rwanda</a></li>
                             </ul>
                         </div>
                     </div>
